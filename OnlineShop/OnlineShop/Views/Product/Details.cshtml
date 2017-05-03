@@ -1,0 +1,37 @@
+﻿@model OnlineShop.Models.ViewModels.Products.DetailsProductVm
+@{
+    ViewBag.Title = "Products Details";
+}
+<h1>Product Details</h1>
+<div class="productDetailsHeader">
+    <h2>@Model.Name</h2>
+</div>
+<span class="product-prop">Product name</span>
+<span class="product-data">@Html.DisplayFor(vm => Model.Name, null, new { htmlAttributes = new { @class = "large-text" } })</span>
+<br />
+
+<span class="product-prop">@Html.DisplayNameFor(vm => Model.Description)</span>
+<span class="product-data">@Html.DisplayFor(vm => Model.Description, null, new { htmlAttributes = new { @class = "large-text" } })</span>
+<br />
+
+<span class="product-prop">@Html.DisplayNameFor(vm => Model.Price)</span>
+<span class="product-data">@Html.DisplayFor(vm => Model.Price, null, new { htmlAttributes = new { @class = "large-text" } }) BGN.</span>
+<br />
+
+<span class="product-prop">@Html.DisplayNameFor(vm => Model.Amount)</span>
+<span class="product-data">@Html.DisplayFor(vm => Model.Amount, null, new { htmlAttributes = new { @class = "large-text" } })</span>
+<br />
+<img src="~/Content/img/@Model.Picture" alt="Picture" style="width: 204px; height: 178px">
+
+
+@if (User.Identity.IsAuthenticated && Model.Amount > 0)
+{
+    using (Html.BeginForm("Enroll", "Users", FormMethod.Post))
+    {
+        <input type="number" value="@Model.Id" hidden="hidden" name="productId" />
+        <input type="submit" value="Buy" class="btn btn-md btn-success" />
+    }
+}
+<br />
+@Html.ActionLink("Home", "Index", "Home", null, new { @class = "btn btn-md btn-info" })
+

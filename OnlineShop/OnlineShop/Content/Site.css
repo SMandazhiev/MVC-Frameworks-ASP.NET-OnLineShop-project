@@ -1,0 +1,99 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.product{
+    
+    margin-bottom: 5px;
+    padding: 15px;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+.product-prop{
+    color: darkblue;
+    font-size: 25px;
+
+}
+
+.product-data {
+    color: black;
+    font-size: 17px;
+    padding-left: 12px;
+}
+
+.large-text {
+    font-size: 20px;
+
+}
+
+.productDetailsHeader {
+    font-size: 30px;
+    font-style: italic;
+    
+}
+
+.totalProductPrice {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.totalProductPriceJunior {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: right;
+}
+
+
+.article {
+    border: 1px solid blue;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.publish-data {
+    color: red;
+}
+.author {
+    text-decoration: underline;
+    color: aqua;
+}
+
+.bordered {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.admin-course {
+    border: 2px solid orange;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.admin-user {
+    border: 2px solid orange;
+    margin-bottom: 5px;
+    padding: 5px;
+}

@@ -1,0 +1,50 @@
+﻿@model OnlineShop.Models.ViewModels.Users.ProfileVm
+
+@{
+    ViewBag.Title = "Profile Page";
+}
+
+<h2>My Profile</h2>
+<br />
+<h3>Name: @Html.DisplayFor(vm => vm.Name)</h3>
+<h3>Email: @Html.DisplayFor(vm => vm.Email)</h3>
+<h3>Account Balance: @Html.DisplayFor(vm => vm.AccountBalance)</h3>
+@Html.ActionLink("Edit Profile", "Edit", null, new { @class = "btn btn-md btn-info" })
+<br/>
+<br />
+<h2>Bought products</h2>
+<table class="table table-striped">
+    <tr>
+        <th>Name</th>
+        <th>Count</th>
+        <th>Price</th>
+        <th class="totalProductPriceJunior">Total</th>
+
+    </tr>
+    
+
+    @foreach (var purchase in Model.PurchasesCount)
+    {
+        <tr>
+            <td>@Html.DisplayFor(vm => purchase.Product.Name)</td>
+            <td>@Html.DisplayFor(vm => purchase.PurchaseNumber)</td>
+            <td>@Html.DisplayFor(vm => purchase.Product.Price) BGN</td>
+            <td class="totalProductPriceJunior">@Html.DisplayFor(vm => purchase.ProductTypeCosts) BGN</td>
+            
+
+        </tr>
+
+    }
+    <br />
+    <tr class="totalProductPrice">
+
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>@Html.DisplayFor(vm => vm.TotalPriceOfProducts) BGN</td>
+
+    </tr>
+
+</table>
+
+@Html.ActionLink("Home","Index", "Home", null, new { @class = "btn btn-md btn-info" })

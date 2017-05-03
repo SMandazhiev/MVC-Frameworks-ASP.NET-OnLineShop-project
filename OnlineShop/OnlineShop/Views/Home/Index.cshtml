@@ -1,0 +1,25 @@
+﻿@using System.Data.Entity.Migrations.Model
+@using System.Web.Http.Validation
+@model IEnumerable<OnlineShop.Models.ViewModels.Products.ProductVm>
+@{
+    ViewBag.Title = "OnlineShop";
+}
+
+<h1>Welcome to the OnlineShop</h1>
+<h2>The Choice Is Yours</h2>
+
+@foreach (var vm in Model)
+{
+    <div class="product">
+        <span class="product-prop">
+            <img src="~/Content/img/@vm.Picture" alt="Picture" style="width: 104px; height: 78px">
+
+
+            @Html.ActionLink(@vm.Name, "Details", "Product", new { id = vm.Id }, null)
+        </span>
+
+       
+
+
+    </div>
+}
