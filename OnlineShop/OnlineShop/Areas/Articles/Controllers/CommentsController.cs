@@ -2,13 +2,12 @@
 using System.Web.Mvc;
 using OnlineShop.Models.BindingModels.Editor;
 using OnlineShop.Models.ViewModels.Comments;
-using OnlineShopServices;
 using OnlineShopServices.Interfaces;
 
-namespace OnlineShop.Web.Areas.Editor.Controllers
+namespace OnlineShop.Web.Areas.Articles.Controllers
 {
-    [RouteArea("Editor")]
-    [RoutePrefix("comments")]
+    [RouteArea("Articles")]
+   // [RoutePrefix("comments")]
     [Authorize(Roles = "Client")]
     public class CommentsController : Controller
     {

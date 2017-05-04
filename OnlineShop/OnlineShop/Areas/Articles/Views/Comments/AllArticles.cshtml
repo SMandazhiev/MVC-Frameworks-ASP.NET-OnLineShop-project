@@ -1,0 +1,32 @@
+﻿@using System.Runtime.CompilerServices
+@using System.Web.Http.Validation
+@model IEnumerable<OnlineShop.Models.ViewModels.Comments.CommentVm>
+
+@{
+    Layout = "../Shared/_Layout.cshtml";
+    ViewBag.Title = "AllArticles";
+}
+<h2></h2>
+<br/>
+
+@if (User.IsInRole("Admin") || User.IsInRole("Editor"))
+{
+ @Html.ActionLink("Add Article", "Add",null, new {@class = "btn btn-lg btn-info"})
+}  
+
+
+<section>
+    @foreach (var vm in Model)
+    {
+        <article>
+            <h3>@Html.DisplayFor(vms => vm.Title)</h3>
+            <span class="author">by @Html.DisplayFor(vms => vm.Author.Name)</span>
+            <span class="publish-data">on @Html.DisplayFor(vms => vm.PublishDate.Day).@Html.DisplayFor(vms => vm.PublishDate.Month).@Html.DisplayFor(vms => vm.PublishDate.Year) г.</span>
+            <br/>
+            <br />
+            <p class ="articleContent"> @Html.DisplayFor(vms => vm.Content)</p>
+            <br />
+            
+        </article>
+    }
+</section>

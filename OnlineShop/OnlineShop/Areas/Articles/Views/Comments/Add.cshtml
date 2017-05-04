@@ -1,20 +1,22 @@
 ﻿@{
-    Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Add Comment";
 }
-
+<h1>Create Article</h1>
 @using (Html.BeginForm())
 {
     <label for="title">Title: </label>
+    <br />
     <input id="title" type="text" name="Title"/>
     <br/>
     <label for="content">Content: </label>
+    <br />
     <textarea id="content" rows="10" cols="30" name="Content">
         
         </textarea>
     <br/>
-       <input type="Submit" value="Add" class="btn btn-lg"/>
+    <br />
+       <input type="Submit" value="Publish Article" class="btn btn-lg btn-info"/>
 }
 
-<h2>Add</h2>
+
 

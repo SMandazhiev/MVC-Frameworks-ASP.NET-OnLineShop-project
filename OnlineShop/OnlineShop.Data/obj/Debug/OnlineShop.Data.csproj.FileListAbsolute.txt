@@ -28,3 +28,33 @@ C:\Projects\CSharp\ASP_NET\OnlineShopProjectAPI\OnlineShop\OnlineShop.Data\bin\D
 C:\Projects\CSharp\ASP_NET\OnlineShopProjectAPI\OnlineShop\OnlineShop.Data\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Projects\CSharp\ASP_NET\OnlineShopProjectAPI\OnlineShop\OnlineShop.Data\bin\Debug\System.Web.WebPages.xml
 C:\Projects\CSharp\ASP_NET\OnlineShopProjectAPI\OnlineShop\OnlineShop.Data\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Simeon\Desktop\OnLine Shop\MVC-Frameworks-ASP.NET-OnLineShop-project\OnlineShop\OnlineShop.Data\bin\Debug\OnlineShop.Data.dll.config
+C:\Users\Simeon\Desktop\OnLine Shop\MVC-Frameworks-ASP.NET-OnLineShop-project\OnlineShop\OnlineShop.Data\bin\Debug\OnlineShop.Data.dll
+C:\Users\Simeon\Desktop\OnLine Shop\MVC-Frameworks-ASP.NET-OnLineShop-project\OnlineShop\OnlineShop.Data\bin\Debug\OnlineShop.Data.pdb
+C:\Users\Simeon\Desktop\OnLine Shop\MVC-Frameworks-ASP.NET-OnLineShop-project\OnlineShop\OnlineShop.Data\bin\Debug\EntityFramework.dll
+C:\Users\Simeon\Desktop\OnLine Shop\MVC-Frameworks-ASP.NET-OnLineShop-project\OnlineShop\OnlineShop.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Simeon\Desktop\OnLine Shop\MVC-Frameworks-ASP.NET-OnLineShop-project\OnlineShop\OnlineShop.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Simeon\Desktop\OnLine Shop\MVC-Frameworks-ASP.NET-OnLineShop-project\OnlineShop\OnlineShop.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Simeon\Desktop\OnLine Shop\MVC-Frameworks-ASP.NET-OnLineShop-project\OnlineShop\OnlineShop.Data\bin\Debug\OnlineShop.Models.dll
+C:\Users\Simeon\Desktop\OnLine Shop\MVC-Frameworks-ASP.NET-OnLineShop-project\OnlineShop\OnlineShop.Data\bin\Debug\System.Web.Mvc.dll
+C:\Users\Simeon\Desktop\OnLine Shop\MVC-Frameworks-ASP.NET-OnLineShop-project\OnlineShop\OnlineShop.Data\bin\Debug\Microsoft.Owin.dll
+C:\Users\Simeon\Desktop\OnLine Shop\MVC-Frameworks-ASP.NET-OnLineShop-project\OnlineShop\OnlineShop.Data\bin\Debug\System.Web.Razor.dll
+C:\Users\Simeon\Desktop\OnLine Shop\MVC-Frameworks-ASP.NET-OnLineShop-project\OnlineShop\OnlineShop.Data\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Simeon\Desktop\OnLine Shop\MVC-Frameworks-ASP.NET-OnLineShop-project\OnlineShop\OnlineShop.Data\bin\Debug\System.Web.WebPages.dll
+C:\Users\Simeon\Desktop\OnLine Shop\MVC-Frameworks-ASP.NET-OnLineShop-project\OnlineShop\OnlineShop.Data\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Simeon\Desktop\OnLine Shop\MVC-Frameworks-ASP.NET-OnLineShop-project\OnlineShop\OnlineShop.Data\bin\Debug\Owin.dll
+C:\Users\Simeon\Desktop\OnLine Shop\MVC-Frameworks-ASP.NET-OnLineShop-project\OnlineShop\OnlineShop.Data\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Simeon\Desktop\OnLine Shop\MVC-Frameworks-ASP.NET-OnLineShop-project\OnlineShop\OnlineShop.Data\bin\Debug\OnlineShop.Models.pdb
+C:\Users\Simeon\Desktop\OnLine Shop\MVC-Frameworks-ASP.NET-OnLineShop-project\OnlineShop\OnlineShop.Data\bin\Debug\EntityFramework.xml
+C:\Users\Simeon\Desktop\OnLine Shop\MVC-Frameworks-ASP.NET-OnLineShop-project\OnlineShop\OnlineShop.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Simeon\Desktop\OnLine Shop\MVC-Frameworks-ASP.NET-OnLineShop-project\OnlineShop\OnlineShop.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Simeon\Desktop\OnLine Shop\MVC-Frameworks-ASP.NET-OnLineShop-project\OnlineShop\OnlineShop.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Simeon\Desktop\OnLine Shop\MVC-Frameworks-ASP.NET-OnLineShop-project\OnlineShop\OnlineShop.Data\bin\Debug\System.Web.Mvc.xml
+C:\Users\Simeon\Desktop\OnLine Shop\MVC-Frameworks-ASP.NET-OnLineShop-project\OnlineShop\OnlineShop.Data\bin\Debug\Microsoft.Owin.xml
+C:\Users\Simeon\Desktop\OnLine Shop\MVC-Frameworks-ASP.NET-OnLineShop-project\OnlineShop\OnlineShop.Data\bin\Debug\System.Web.Razor.xml
+C:\Users\Simeon\Desktop\OnLine Shop\MVC-Frameworks-ASP.NET-OnLineShop-project\OnlineShop\OnlineShop.Data\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Simeon\Desktop\OnLine Shop\MVC-Frameworks-ASP.NET-OnLineShop-project\OnlineShop\OnlineShop.Data\bin\Debug\System.Web.WebPages.xml
+C:\Users\Simeon\Desktop\OnLine Shop\MVC-Frameworks-ASP.NET-OnLineShop-project\OnlineShop\OnlineShop.Data\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Simeon\Desktop\OnLine Shop\MVC-Frameworks-ASP.NET-OnLineShop-project\OnlineShop\OnlineShop.Data\obj\Debug\OnlineShop.Data.csprojResolveAssemblyReference.cache
+C:\Users\Simeon\Desktop\OnLine Shop\MVC-Frameworks-ASP.NET-OnLineShop-project\OnlineShop\OnlineShop.Data\obj\Debug\OnlineShop.Data.dll
+C:\Users\Simeon\Desktop\OnLine Shop\MVC-Frameworks-ASP.NET-OnLineShop-project\OnlineShop\OnlineShop.Data\obj\Debug\OnlineShop.Data.pdb

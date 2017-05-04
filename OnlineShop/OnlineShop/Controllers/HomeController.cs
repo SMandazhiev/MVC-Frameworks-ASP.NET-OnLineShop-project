@@ -8,7 +8,6 @@ using OnlineShopServices.Interfaces;
 
 namespace OnlineShop.Web.Controllers
 {
-    // [MyAuthorize(Roles="Admin")]
     [Authorize(Roles = "Client")]
     public class HomeController : Controller
     {
@@ -26,22 +25,18 @@ namespace OnlineShop.Web.Controllers
             return this.View(vms);
         }
 
-        [Route("upload")]
-        public ActionResult UploadFile()
+        [AllowAnonymous]
+        public ActionResult Contact()
         {
             return this.View();
         }
 
-        [HttpPost]
-        [Route("upload")]
-        [ActionName("UploadFile")]
-        public ActionResult Upload()
+        [AllowAnonymous]
+        public ActionResult About()
         {
-            HttpPostedFileBase file = Request.Files[0];
-            string fileName = Path.GetFileName(file.FileName);
-            string path = Path.Combine(Server.MapPath("~/UploadedFiles"), fileName);
-            file.SaveAs(path);
-            return RedirectToAction("Index");
+            return this.View();
         }
+
+
     }
 }

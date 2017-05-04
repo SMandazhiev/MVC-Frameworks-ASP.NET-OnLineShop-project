@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace OnlineShop.Web.Areas.Editor
+namespace OnlineShop.Web.Areas.Articles
 {
     public class EditorAreaRegistration : AreaRegistration 
     {

@@ -1,34 +1,37 @@
 ﻿@model OnlineShop.Models.ViewModels.Admin.AdminPageVm
 @{
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "../Shared/_Layout.cshtml";
     ViewBag.Title = "Admin Panel";
 }
 
 <h2>Admin Panel</h2>
 
-@Html.ActionLink("Add Product", "AddProduct", null, new { @class = "btn btn-lg btn-success" })
-<br/>
+
+<br />
 <br />
 <div class="row">
-    <div class="col-sm-5 bordered">
+    <div class="col-lg-4 col-sm-5 bordered">
         <h3>Products</h3>
+        @Html.ActionLink("Add Product", "AddProduct", null, new { @class = "btn btn-lg btn-info" })   
+        @Html.ActionLink("Upload File", "UploadFile", null, new { @class = "btn btn-lg btn-success" })
         @foreach (var product in Model.Products)
         {
             <div class="admin-course">
                 <h4>@Html.DisplayFor(vm => product.Name)</h4>
-                @Html.ActionLink("Edit","EditProduct", new {id = product.Id}, new {@class = "btn btn-lg btn-warning"})
+                <img src="~/Content/img/@product.Picture" alt="Picture" style="width: 104px; height: 78px">
+                @Html.ActionLink("Edit", "EditProduct", new { id = product.Id }, new { @class = "btn btn-lg btn-info" })
             </div>
         }
     </div>
-    <div class="col-sm-5 col-lg-offset-3 bordered">
+
+    <div class="col-lg-4 col-sm-5 col-lg-offset-3 bordered">
         <h3>Users</h3>
         @foreach (var user in Model.Users)
         {
             <div class="admin-user">
                 <h4>@Html.DisplayFor(vm => user.Name)</h4>
-                @Html.ActionLink("Edit", "EditUser", new { id = user.Id }, new { @class = "btn btn-lg btn-warning" })
+                @Html.ActionLink("Edit", "EditUser", new { id = user.Id }, new { @class = "btn btn-lg btn-info" })
             </div>
         }
     </div>
 </div>
-

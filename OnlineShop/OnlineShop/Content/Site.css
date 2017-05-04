@@ -23,18 +23,16 @@ textarea {
     max-width: 280px;
 }
 
-.product{
-    
+.product {
     margin-bottom: 5px;
     padding: 15px;
     padding-left: 30px;
     font-size: 16px;
 }
 
-.product-prop{
+.product-prop {
     color: darkblue;
     font-size: 25px;
-
 }
 
 .product-data {
@@ -45,13 +43,11 @@ textarea {
 
 .large-text {
     font-size: 20px;
-
 }
 
 .productDetailsHeader {
     font-size: 30px;
     font-style: italic;
-    
 }
 
 .totalProductPrice {
@@ -73,12 +69,22 @@ textarea {
     margin-bottom: 10px;
     font-size: 20px;
 }
-.publish-data {
-    color: red;
+
+.articleContent {
+    font-size: 16px;
+    color: black;
 }
+
+.publish-data {
+    font-size: 16px;
+    color: black;
+}
+
 .author {
+    font-size: 18px;
     text-decoration: underline;
-    color: aqua;
+    color: black;
+    font-style: italic;
 }
 
 .bordered {
@@ -87,13 +93,20 @@ textarea {
 }
 
 .admin-course {
-    border: 2px solid orange;
     margin-bottom: 5px;
-    padding: 5px;
+    padding: 15px;
 }
 
 .admin-user {
-    border: 2px solid orange;
     margin-bottom: 5px;
-    padding: 5px;
+    padding: 15px;
+}
+
+.contact {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.about {
+    font-size: 16px;
 }

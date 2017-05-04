@@ -1,4 +1,6 @@
-﻿using System.Web.Mvc;
+﻿using System.IO;
+using System.Web;
+using System.Web.Mvc;
 using OnlineShop.Models.ViewModels.Admin;
 using OnlineShopServices;
 using OnlineShopServices.Interfaces;
@@ -44,6 +46,26 @@ namespace OnlineShop.Web.Areas.Admin.Controllers
         public ActionResult EditUser(int id)
         {
             return this.View();
+        }
+
+        [Route("upload")]
+        [Authorize(Roles = "Admin")]
+        public ActionResult UploadFile()
+        {
+            return this.View();
+        }
+
+        [HttpPost]
+        [Route("upload")]
+        [ActionName("UploadFile")]
+        [Authorize(Roles = "Admin")]
+        public ActionResult Upload()
+        {
+            HttpPostedFileBase file = Request.Files[0];
+            string fileName = Path.GetFileName(file.FileName);
+            string path = Path.Combine(Server.MapPath("~/Content/img"), fileName);
+            file.SaveAs(path);
+            return RedirectToAction("Index");
         }
 
     }
